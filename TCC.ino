@@ -50,13 +50,13 @@ String HOURS = "";
 //Constantes 
 char auth[] = BLYNK_AUTH_TOKEN;
 
-const float offset_corrente = 1288; //Valor de offset médio
-const float coefA_IAC = 1.0993; //Coeficiente para calibrar valor de corrente
-const float coefB_IAC = -0.0475; //Coeficiente para calibrar valor de corrente
+const float offset_corrente = 1290; //Valor de offset médio
+const float coefA_IAC = 0.8885; //Coeficiente para calibrar valor de corrente
+const float coefB_IAC = 0.0051; //Coeficiente para calibrar valor de corrente
 
 const float offset_tensao = 22; //Valor de offset médio
-const float coefA_VAC = 1.0438; //Coeficiente para calibrar valor de tensão
-const float coefB_VAC = 1.1619; //Coeficiente para calibrar valor de tensão
+const float coefA_VAC = 1.0139; //Coeficiente para calibrar valor de tensão
+const float coefB_VAC = 0.0994; //Coeficiente para calibrar valor de tensão
 
 BlynkTimer timer; //Iniciar Timer do BLYNK
 

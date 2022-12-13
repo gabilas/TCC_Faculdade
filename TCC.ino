@@ -215,7 +215,9 @@ void Medidor() //Medidor de corrente e tensão elétrica
 
       //Print Serial dos valores coletado
       Serial.print(valor_lidoT);
+      Serial.println("V");
       Serial.print(valor_lidoC);
+      Serial.println("A");
   
       if(valor_lidoC > maior_valorC){
         maior_valorC = valor_lidoC; //Maior valor lido dentro do ciclo
